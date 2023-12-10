@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/logo"
+        />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Currency Name"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Buy"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sell"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+<ImageView
+    android:layout_width="55dp"
+    android:layout_height="30sp"
+    android:src="@drawable/us"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="USD"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/usd_buy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="36.54"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/usd_sell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="37.43"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="30sp"
+
+                    android:src="@drawable/eu" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="EUR"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/evr_buy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="39.54"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/evr_sell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="40.43"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="152dp"
+                android:layout_height="match_parent"
+                android:paddingLeft="-40dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gb" />
+
+                <TextView
+                    android:layout_width="53dp"
+                    android:layout_height="match_parent"
+                    android:text="GBP"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/gbp_buy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="46.54"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/gbp_sell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="48.43"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="33dp"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/pl" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="PLN"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/pln_buy"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="8.54"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/pln_sell"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9.43"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

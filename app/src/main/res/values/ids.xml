@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="result" type="id" />
+    <item name="prise" type="id" />
+    <item name="buy" type="id" />
+    <item name="cross" type="id" />
+    <item name="sell" type="id" />
+    <item name="currencyFrom" type="id" />
+    <item name="activity_curensces" type="id" />
+    <item name="activity_curencies" type="id" />
+    <item name="activity_currencies" type="id" />
+    <item name="google_sing_in_button" type="id" />
+    <item name="user_icon" type="id" />
+</resources>

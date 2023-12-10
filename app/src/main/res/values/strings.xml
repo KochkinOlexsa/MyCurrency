@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Currency</string>
+    <string name="purchase">Покупка</string>
+    <string name="sale">Продаж</string>
+    <string name="bank">НБУ</string>
+    <string name="convert">Convert</string>
+    <string name="exchange_rate">Exchange rate</string>
+    <string-array name="currency_list">
+        <item> USD-United </item>
+        <item> GPB-British Pound </item>
+        <item> EUR-Euro </item>
+
+        <item> PLN-Polish zloty </item>
+        <item> UAH-Ukrainian hryvna </item>
+
+
+    </string-array>
+</resources>
+
